@@ -5,15 +5,14 @@
 <!--h1 without bottom border-->
 <div id="user-content-toc">
   <ul align="center">
-    <summary><h1 style="display: inline-block">Hola 👋, Me llamo Diego Alberto</h1>
-	<h1 style="display: inline-block">Rodriguez Belman</h1></summary>
+    <summary><h1 style="display: inline-block">Hola 👋, Me llamo Diego Alberto Rodriguez Belman</h1></summary>
   </ul>
 </div>
 
 
 <!--- snake -->
 <div align="center">
-  <img  src="https://github.com/1999AZZAR/1999AZZAR/blob/readme/resources/img/grid-snake.svg"
+  <img  src="https://github.com/1999AZZAR/1999AZZAR/blob/readme/resources/img/grid-snake.svg" //Foto a agregar
        alt="snake" /></a>
 </div>
 
@@ -21,26 +20,27 @@
 <!--h2 without bottom border-->
 <div id="user-content-toc">
   <ul align="center">
-    <summary><h2 style="display: inline-block">Confusion is part of Programming</h2></summary>
+    <summary><h2 style="display: inline-block"></h2></summary>
   </ul>
 </div>
 
 
 
 
-## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> About me
+## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> Sobre mi
 
 <picture> <img align="right" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" width = 250px></picture>
 
 <br>
 
 
-- 🌱 I’m currently exploring Blockchain with a big interest in Smart Contracts.
-- :technologist: I love using Software as a solution for every `Problem`.
-- :nerd_face: Always `learning new things`.
-- 💬 Ask me about anything, I love to answer!
-- :thinking: I’m currently open for a new `job opportunity`.
-- Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/nitin-dahiya/) 🏆.
+- 🌱 Actualmente estoy estudiando la carrera de Ingeniería en Sistemas Computacionales en el Instituto Tecnológico de Celaya.
+- :technologist: Me gusta crear paginas web y aplicaciones moviles.
+- :nerd_face: No tengo muchos conocimientos en el campo laboral sobre creaciónes de paginas web, pero eh creado algunos proyectos.
+- 💬 No tengo problemas en trabajar en equipo.
+- :thinking: Soy una persona perseverante, si no entiendo algo o me atoro, siempre busco una solución
+-  o le investigo hasta resolver el problema.
+-  🎮 Me gusta leer libros, jugar videojuegos y escuchar musica.
 <br>
 
 
