@@ -1,0 +1,62 @@
+:root{
+  --bg:#f5f7fb;
+  --card:#ffffff;
+  --accent:#4f46e5;
+  --muted:#6b7280;
+  --dark:#111827;
+  --radius:12px;
+  --max-width:900px;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;color:var(--dark);background:var(--bg)}
+
+.container{max-width:var(--max-width);margin:32px auto;padding:20px}
+.card{background:var(--card);border-radius:var(--radius);box-shadow:0 8px 30px rgba(16,24,40,0.06);overflow:hidden;display:grid;grid-template-columns:260px 1fr}
+
+/* SIDEBAR */
+.sidebar{padding:28px;background:linear-gradient(180deg, rgba(79,70,229,0.06), transparent);display:flex;flex-direction:column;gap:18px}
+.top{display:flex;align-items:center;gap:14px}
+.photo{width:120px;height:120px;border-radius:16px;overflow:hidden;background:#ddd;flex-shrink:0}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
+h1{font-size:20px;margin:8px 0 0}
+p.role{margin:6px 0 0;color:var(--accent);font-weight:600}
+.muted-small{color:var(--muted);font-size:13px}
+.section-title{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:8px}
+.chip{display:inline-block;padding:6px 8px;margin:6px 6px 0 0;border-radius:999px;background:#f3f4f6;font-weight:600;font-size:13px}
+
+/* MAIN */
+.main{padding:28px 30px}
+.summary{font-size:15px;color:#374151;line-height:1.5;margin-bottom:16px}
+.section{margin-bottom:18px}
+.job{margin-bottom:14px}
+.job h3{margin:0;font-size:15px}
+.job .meta{color:var(--muted);font-size:13px;margin-top:4px}
+.job p{margin:8px 0 0;color:#374151;font-size:14px}
+.edu{display:flex;justify-content:space-between;align-items:flex-start}
+.skill-list{display:flex;flex-wrap:wrap;gap:8px}
+.progress{height:8px;background:#eef2ff;border-radius:999px;overflow:hidden;width:100%}
+.progress > span{display:block;height:100%;background:var(--accent);border-radius:999px}
+
+/* Skills levels grid inside main */
+.levels{display:grid;grid-template-columns:1fr 120px;gap:10px;align-items:center;margin-top:8px}
+.label{font-weight:700;color:#111827}
+
+/* Small utilities */
+.link{color:var(--accent);text-decoration:none;font-weight:600}
+.note{margin-top:auto;font-size:12px;color:var(--muted)}
+
+/* Responsive */
+@media (max-width:860px){
+  .card{grid-template-columns:1fr;}
+  .sidebar{flex-direction:row;gap:12px;padding:18px}
+  .main{padding:18px}
+}
+
+/* Print */
+@media print{
+  body{background:white}
+  .container{margin:0}
+  .card{box-shadow:none;border-radius:0;grid-template-columns:1fr}
+  .sidebar{display:none}
+}
